@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+	<!--
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>InteriorTurret</TypeId>
+        <SubtypeId>PGA_CrudeRifleTurret_Large</SubtypeId>
+      </Id>
+      <DisplayName>Crude Rifle Turret</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_turret.dds</Icon>
+      <Description>Not a very good turret. In fact, it's worse than a human with a rifle, and it has to be reloaded by hand. But; it's cheap, and it can take care of overly aggressive wildlife without your intervention. And did I mention it's cheap? Takes normal 5.56mm ammo.</Description>
+      <CubeSize>Large</CubeSize>
+      <PlaceDecals>false</PlaceDecals>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\InteriorTurret.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Girder" Count="2" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.46" StartY="0.46" EndX="0.54" EndY="0.54" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorTurretConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorTurretConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorTurretConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>PGA_CrudeRifleTurret</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="PGA_CrudeRifleTurret" />
+      <InventoryMaxVolume>0.2</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-76</MinElevationDegrees>
+      <MaxElevationDegrees>90</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>300</MaxRangeMeters>
+      <RotationSpeed>0.002</RotationSpeed>
+      <ElevationSpeed>0.002 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>125</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition> -->
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>InteriorTurret</TypeId>
+        <SubtypeId>PGA_CrudeRifleTurret_Small</SubtypeId>
+      </Id>
+      <DisplayName>Crude Rifle Turret</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_turret.dds</Icon>
+      <Description>Not a very good turret. In fact, it's worse than a human with a rifle, and it has to be reloaded by hand. But; it's cheap, and it can take care of overly aggressive wildlife without your intervention. And did I mention it's cheap? Takes normal 5.56mm ammo.</Description>
+      <CubeSize>Small</CubeSize>
+      <PlaceDecals>false</PlaceDecals>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="3" />
+      <ModelOffset x="0" y="0.2" z="0" />
+      <Model>Models\Cubes\Large\InteriorTurret.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Girder" Count="2" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorTurretConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorTurretConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorTurretConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>PGA_CrudeRifleTurret</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="PGA_CrudeRifleTurret" />
+      <InventoryMaxVolume>0.2</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-76</MinElevationDegrees>
+      <MaxElevationDegrees>90</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>300</MaxRangeMeters>
+      <RotationSpeed>0.002</RotationSpeed>
+      <ElevationSpeed>0.002 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>125</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
